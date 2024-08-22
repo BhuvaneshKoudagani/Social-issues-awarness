@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+}
+
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.content-container {
+    width: 100%;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    
+    margin-bottom: 20px; 
+    transition: 0.5s ease-in-out;
+}
+
+section:first-child {
+    width: 21%; 
+}
+
+section:last-child {
+    width: 70%; 
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; 
+    display: flex;
+}
+
+li span:first-child {
+    width: 150px; 
+    text-align: left;
+}
+
+li span:last-child {
+    flex: 1;
+    text-align: left;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.team-leader {
+    background-color: #333; 
+    color: #fff; 
+    padding: 5px 10px; 
+    text-align: left; 
+    margin-top: 20px; 
+    width: 250px; 
+    font-size: 16px; 
+}
+
+.team-leader strong {
+    font-size: 18px; 
+    font-weight: bold;
+    color: #f6f8f9; 
+}
+
+button {
+    background-color: #4CAF50; 
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;  
+    position: fixed; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-decoration: none;
+  } 
+
+  a{
+    text-decoration: none;
+  }
+
+  section:hover{
+    box-shadow: 3px 3px 20px black;
+    background-image: url('bg.png');
+    background-size: cover;
+
+  }
+
+  
