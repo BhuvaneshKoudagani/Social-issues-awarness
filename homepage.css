@@ -1,0 +1,133 @@
+/* Reset styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f; /* Dark gray background for the entire page */
+    color: #e0e0e0; /* Light text color for readability */
+}
+
+/* Header styles */
+header {
+    background-color: #2c3e50; /* Dark blue-gray background for header */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    color: #ecf0f1; /* Light color for header text */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1; /* Light color for links */
+    font-weight: bold;
+    padding: 10px 15px; /* Padding around the text */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+header nav ul li a:hover {
+    background-color: #3498db; /* Highlight color on hover */
+    color: #fff; /* Change text color on hover for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+
+/* Hero section styles */
+.hero {
+    background: linear-gradient(135deg, #3498db, #2ecc71); /* Gradient background */
+    text-align: center;
+    padding: 100px;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #1f618d;
+}
+
+/* Content section styles */
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 20px;
+}
+
+.content-section {
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+    color: #fff; /* Ensure text is readable */
+}
+
+/* Specific background colors for each content section */
+.content-section:nth-child(1) {
+    background-color: #e74c3c; /* Soft red */
+}
+
+.content-section:nth-child(2) {
+    background-color: #3498db; /* Blue */
+}
+
+.content-section:nth-child(3) {
+    background-color: #2ecc71; /* Green */
+}
+
+.content-section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.content-section p {
+    font-size: 16px;
+    color: #fff; /* Text color should contrast with background */
+}
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50; /* Dark blue-gray background for footer */
+    padding: 20px;
+    text-align: center;
+    color: #ecf0f1; /* Light text color for footer */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+}
