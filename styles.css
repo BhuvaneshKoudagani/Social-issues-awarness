@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f5f5f560;
+    transition: 0.4s ease-in;
 }
 
 .container {
@@ -13,23 +14,29 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: 0.5s ease-in-out;
     transition-delay: 0.5s;
+    background-color: rgb(128, 128, 128);
+    transition: 0.4s ease-in;
+}
     
 
 
-}
+
 
 
 .login-form {
     padding: 25px;
+    transition: 0.4s ease-in;
 }
 
 .form-group {
     margin-bottom: 20px;
+    transition: 0.4s ease-in;
 }
 
 label {
     display: block;
     margin-bottom: 10px;
+    transition: 0.4s ease-in;
 }
 
 input[type="text"], input[type="password"] {
@@ -38,6 +45,7 @@ input[type="text"], input[type="password"] {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    transition: 0.4s ease-in;
 }
 
 button[type="submit"] {
@@ -47,10 +55,15 @@ button[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.4s ease-in;
+    border-radius: 30px;
+
 }
 
 button[type="submit"]:hover {
     background-color: #3e8e41;
+    
+
 }
 
 
@@ -59,6 +72,7 @@ button[type="submit"]:hover {
 
 h1{
    font-family: 'Courier New', Courier, monospace;
+   transition: 0.4s ease-in;
 }
 
 
@@ -71,6 +85,7 @@ h1{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.5s ease-in-out, background-size 2s ease-in-out; /* Smooth transition */
+    transition: 0.4s ease-in;
 }
 
 /* On hover */
@@ -78,6 +93,7 @@ h1{
     box-shadow: 3px 3px 20px black;
     background-image: url('bg.png');
     background-size: cover;
+    transform: scale(1.05);
 }
 body{
     background-image: url('bg.png');
@@ -86,5 +102,12 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    transition: 0.4s ease-in;
 
 }
+
+a{
+    text-decoration: none;
+    color:black;
+}
+

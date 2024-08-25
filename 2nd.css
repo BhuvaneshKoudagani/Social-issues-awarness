@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; 
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
 }
 
 header {
-    background-color: #333; 
-    color: #fff; 
+    /* background: linear-gradient(135deg, #f5f7fa, #c3cfe2); */
+    color: #333333; 
     padding: 20px;
     text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -32,9 +33,9 @@ section {
     padding: 20px;
     border: 1px solid #ddd; 
     border-radius: 10px;
-    
+   
     margin-bottom: 20px; 
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in;
 }
 
 section:first-child {
@@ -104,17 +105,43 @@ button {
     left: 50%; 
     transform: translateX(-50%); 
     text-decoration: none;
+    border-radius: 50px;;
   } 
 
   a{
     text-decoration: none;
+    color:white
   }
 
   section:hover{
-    box-shadow: 3px 3px 20px black;
+    box-shadow: 10px 10px 35px black;
     background-image: url('bg.png');
     background-size: cover;
+    transform: scale(1.05);
 
   }
 
+  p{
+    font-size: 18px;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+  }
+
+
   
+
+  #team h1{
+    border:2px solid black;
+    margin:auto;
+    background: linear-gradient(135deg, #85c0e8, #e7a0f2);
+    height:55px;
+    width:200px;
+    padding-top: 8px;
+    border-radius: 30px;
+    transition: 0.4s ease-in;
+
+  }
+
+  #team h1:hover{
+    box-shadow: 10px 10px 35px black;
+    transform: scale(1.05);
+  }

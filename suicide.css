@@ -6,8 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(166, 178, 174);
+    background: linear-gradient(135deg, #FF3E9D, #0E1F40); 
     margin: auto;
+    border-radius: 50px;;
 }
 
 body, html {
@@ -152,4 +153,17 @@ button {
   } 
   a{
     text-decoration: none;
+    color:white;
+    font-size: 25px;
   }
+
+ .lm {
+       background-color: rgb(40, 182, 237);
+       border-radius: 50px;
+       height:60px;
+       width:200px;
+       
+  }
+ #l{
+    padding-bottom: 50px;
+ }

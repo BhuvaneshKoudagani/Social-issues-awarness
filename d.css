@@ -1,0 +1,29 @@
+button {
+    background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+  } 
+  a{
+    text-decoration: none;
+    color:white
+  }
+
+  .heading1{
+    margin-top: 0px ;
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#7ed1eb , #df58e3);
+    margin: auto;
+    border-radius: 50px;
+}

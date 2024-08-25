@@ -1,0 +1,250 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #FF3E9D, #0E1F40);
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(130deg, #2980b9, #8e44ad), url('hero-bg.jpg') no-repeat center center/cover;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0;
+    z-index: 1;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+/* Content Section */
+.content-section {
+    background-color: rgba(255, 255, 255, 0.706);
+    padding: 50px 0;
+    margin-top: -50px;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.content-section h2 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.content-section p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.stats-list, .resource-list, .involvement-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.stats-list li, .resource-list li, .involvement-list li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #444;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.stats-list li strong, .resource-list li a {
+    color: #f0f3f5;
+}
+
+.resource-list li a {
+    text-decoration: none;
+}
+
+.resource-list li a:hover {
+    text-decoration: underline;
+}
+
+/* Stories Section */
+.stories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    transition: 0.4s ease-in;
+}
+
+.story {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(30% - 20px);
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.story h3 {
+    color: black;
+    margin-top: 0;
+    font-size: 1.6em;
+}
+
+.story p {
+    color:white;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.story-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #FF3E9D, #0E1F40);
+
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.logo {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+button {
+    background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+  } 
+  a{
+    text-decoration: none;
+    color:white;
+    
+  }
+  .heading10{
+    margin-top: 0px ;
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#7ed1eb , #df58e3);
+    margin: auto;
+    border-radius: 50px;
+}
+
+#a{
+    background: linear-gradient(135deg,#2E3192 , #1BFFFF);   
+}
+
+#b{
+    background: linear-gradient(135deg,#02AABD ,#00CDAC)
+}
+
+#c{
+    background: linear-gradient(135deg, #FF512F , #DD2476)
+}
+
+p{
+    font-size: 18px;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    
+  }
+
+
+  .stories:hover{
+    box-shadow: 15px 15px 45px black;
+    transform: scale(1.05);
+  }

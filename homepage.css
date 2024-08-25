@@ -50,7 +50,7 @@ header nav ul li a:hover {
 
 /* Hero section styles */
 .hero {
-    background: linear-gradient(135deg, #3498db, #2ecc71); /* Gradient background */
+    background: linear-gradient(135deg, #FF3E9D, #0E1F40);
     text-align: center;
     padding: 100px;
     color: #fff;
@@ -102,15 +102,18 @@ header nav ul li a:hover {
 
 /* Specific background colors for each content section */
 .content-section:nth-child(1) {
-    background-color: #e74c3c; /* Soft red */
+    background: linear-gradient(135deg,#2E3192 , #1BFFFF);
+    transition: 0.4s;
 }
 
 .content-section:nth-child(2) {
-    background-color: #3498db; /* Blue */
+    background: linear-gradient(135deg,#02AABD ,#00CDAC);
+    transition: 0.4s;
 }
 
 .content-section:nth-child(3) {
-    background-color: #2ecc71; /* Green */
+    background: linear-gradient(135deg, #FF512F , #DD2476);
+    transition: 0.4s;
 }
 
 .content-section h3 {
@@ -131,3 +134,50 @@ footer {
     color: #ecf0f1; /* Light text color for footer */
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
 }
+
+
+.b1{
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+.content-section:nth-child(1):hover{
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.633);
+    transform: scale(1.05);
+
+}
+
+.content-section:nth-child(2):hover{
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.633);
+    transform: scale(1.05);
+
+}
+
+.content-section:nth-child(3):hover{
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.633);
+    transform: scale(1.05);
+
+}
+
+
+#home{
+    border:2px solid black;
+    margin:auto;
+    background: linear-gradient(135deg, #85c0e8, #e7a0f2);
+    height:40px;
+    width:150px;
+    padding-top: 8px;
+    border-radius: 30px;
+   
+
+  }
