@@ -102,12 +102,13 @@ header nav ul li a:hover {
 
 /* Specific background colors for each content section */
 .content-section:nth-child(1) {
-    background: linear-gradient(135deg,#2E3192 , #1BFFFF);
+    background: linear-gradient(135deg,#02AABD ,#00CDAC);
     transition: 0.4s;
 }
 
 .content-section:nth-child(2) {
-    background: linear-gradient(135deg,#02AABD ,#00CDAC);
+    
+    background: linear-gradient(135deg,#2E3192 , #1BFFFF);
     transition: 0.4s;
 }
 
