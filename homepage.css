@@ -97,10 +97,10 @@ header nav ul li a:hover {
     margin: 10px;
     flex: 1;
     min-width: 200px;
-    color: #fff; /* Ensure text is readable */
+    color: #fff; 
 }
 
-/* Specific background colors for each content section */
+
 .content-section:nth-child(1) {
     background: linear-gradient(135deg,#02AABD ,#00CDAC);
     transition: 0.4s;
