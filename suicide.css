@@ -1,15 +1,3 @@
-.heading1{
-    margin-top: 0px ;
-    height: 100px;
-    width: 300px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #FF3E9D, #0E1F40); 
-    margin: auto;
-    border-radius: 50px;;
-}
 
 body, html {
     padding: 0;
@@ -32,7 +20,7 @@ body, html {
     color: white;
 }
 
-.heading button {
+.bu {
     height: 40px;
     width: 120px;
     border-radius: 20px;
@@ -140,7 +128,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-button {
+.but {
     background-color: #4CAF50;
 	color: #fff;
 	padding: 10px 20px;
@@ -172,3 +160,151 @@ button {
  #h{
     text-decoration: none;
  }
+
+ /* From Uiverse.io by LeonKohli */ 
+.ui-input-container {
+    position: relative;
+    width: 300px;
+  }
+  
+  .ui-input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    font-size: 1em;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background-color: transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .ui-input:focus {
+    border-color: #6c63ff;
+  }
+  
+  .ui-input-underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #6c63ff;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+  }
+  
+  .ui-input:focus + .ui-input-underline {
+    transform: scaleX(1);
+  }
+  
+  .ui-input-highlight {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgba(108, 99, 255, 0.1);
+    transition: width 0.3s;
+  }
+  
+  .ui-input:focus ~ .ui-input-highlight {
+    width: 100%;
+  }
+  
+  .ui-input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    transition: color 0.3s;
+  }
+  
+  .ui-input:focus ~ .ui-input-icon {
+    color: #6c63ff;
+  }
+  
+  .ui-input-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+    
+
+  .heading1{
+    padding-left:40%;
+  }
+
+  /* From Uiverse.io by cssbuttons-io */ 
+/* From Uiverse.io by CristianMontoya98 */ 
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+ 
+/* From Uiverse.io by adamgiebl */ 
+.bn {
+    position: relative;
+    display: inline-block;
+   margin:15px 15px 15px 105px;
+    padding: 10px ;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #725AC1;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #725AC1;
+    
+  }
+  
+  .bn:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #725AC1;
+  }
+  
+  .bn:active {
+    transform: scale(0.9);
+  }
+
+  .f{
+    font-family: 'Montserrat', sans-serif;
+  }
