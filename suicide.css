@@ -308,3 +308,11 @@ body {
   .f{
     font-family: 'Montserrat', sans-serif;
   }
+  footer {
+    background: linear-gradient(135deg, #FF3E9D, #0E1F40);
+
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
