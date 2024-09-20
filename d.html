@@ -18,7 +18,7 @@
             line-height: 1.6;
             color: #333;
             background-color: #f4f4f4;
-            padding: 20px;
+            padding: 0px;
         }
         
         .header {
@@ -47,7 +47,7 @@
             margin: 0 auto 40px;
             text-align: center;
             max-width: 2000px;
-            height:270px /* Ensures consistent width with other sections */
+            height: 270px; /* Ensures consistent width with other sections */
         }
         
         .hero a {
@@ -102,7 +102,6 @@
         }
         
         .section:hover {
-           
             transform: scale(1.02); /* Slightly enlarge on hover */
         }
         
@@ -184,6 +183,22 @@
     <script src="https://kit.fontawesome.com/your-font-awesome-kit-id.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <body>
+        <section class="all">
+            <h1>Social Issues</h1>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="loginform.html">Login</a></li>
+                </ul>
+            </nav>
+          </section>
+        
+        <br><br><br>
+    
     <header class="header">
         <nav class="navbar">
             <a class="navbar-brand" href="#"><h1>United Against Drug Abuse</h1></a>
@@ -192,7 +207,6 @@
     
     <section class="hero">
         <a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/mar/doc202433318301.pdf">Together Against Drug Abuse</a>
-        
     </section>
     
     <a href="https://narcoticsindia.nic.in/" class="section section-1">
@@ -216,50 +230,49 @@
     <center class="f"> <h1>For Additional information search here :</h1>  </center>
     <div class="heading1">
         <div class="ui-input-container">
-            <input
-              required=""
-              placeholder="Search Here..."
-              class="ui-input"
-              type="text"
-              name="q"
-            />
-            <div class="ui-input-underline"></div>
-            <div class="ui-input-highlight"></div>
-            <div class="ui-input-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                <path
-                  stroke-linejoin="round"
-                  stroke-linecap="round"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
-                ></path>
-              </svg>
-            </div>
-          </div>
-          <div class="one">
-                      <button class="bn">search</button>
-                      <br><br>
-                  </form>
-              </div>
-          
-          </div>
-          <div>
-<center><button><a href="homepage.html">Back</a></button></center>
-</div>  </div>
+            <form action="search-results.html">
+                <input
+                  required=""
+                  placeholder="Search Here..."
+                  class="ui-input"
+                  type="text"
+                  name="q"
+                />
+                <div class="ui-input-underline"></div>
+                <div class="ui-input-highlight"></div>
+                <div class="ui-input-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <path
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+                    ></path>
+                  </svg>
+                </div>
+            </form>
+        </div>
+        <div class="one">
+            <button class="bn">Search</button>
+            <br><br>
+        </div>
+    </div>
+    <div>
+        <center><button><a href="homepage.html">Back</a></button></center>
+    </div>
     
     <footer class="footer">
         <div class="contact-info">
             <p class="fot">&copy; 2023 United Against Drug Abuse</p>
             <p class="fot"><a href="mailto:info@unitedagainstdrugabuse.org">info@unitedagainstdrugabuse.org</a></p>
         </div>
-        <div class="social-links">
+        <!-- <div class="social-links">
             <a href="https://www.facebook.com/unitedagainstdrugabuse/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/unitedagainstdrugabuse" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/unitedagainstdrugabuse/" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
+        </div> -->
     </footer>
-   
-
+ 
 </body>
 </html>

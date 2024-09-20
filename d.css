@@ -31,3 +31,47 @@ button {
 .fot{
   padding-top:70px;
 }
+
+.all {
+  background-color: #2c3e50; /* Dark blue-gray background for header */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width:100%;
+  padding-bottom: 100px;
+ 
+}
+
+section h1 {
+  margin: 0;
+  color: #ecf0f1; /* Light color for header text */
+}
+
+section nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+section nav ul li {
+  margin-right: 20px;
+}
+
+section nav ul li a {
+  text-decoration: none;
+  color: #ecf0f1; /* Light color for links */
+  font-weight: bold;
+  padding: 10px 15px; /* Padding around the text */
+  border-radius: 8px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+section nav ul li a:hover {
+  background-color: #3498db; /* Highlight color on hover */
+  color: #fff; /* Change text color on hover for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
